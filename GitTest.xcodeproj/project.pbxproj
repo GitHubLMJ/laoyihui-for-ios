@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171AB8B81BC35F1A00C161A7 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 171AB8B71BC35F1A00C161A7 /* Test.m */; settings = {ASSET_TAGS = (); }; };
 		17BFE5261BC3588000AB680B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BFE5251BC3588000AB680B /* main.m */; };
 		17BFE5291BC3588000AB680B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BFE5281BC3588000AB680B /* AppDelegate.m */; };
 		17BFE52C1BC3588000AB680B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BFE52B1BC3588000AB680B /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171AB8B61BC35F1A00C161A7 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		171AB8B71BC35F1A00C161A7 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		17BFE5201BC3588000AB680B /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BFE5241BC3588000AB680B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17BFE5251BC3588000AB680B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				17BFE5301BC3588000AB680B /* Images.xcassets */,
 				17BFE5321BC3588000AB680B /* LaunchScreen.xib */,
 				17BFE5231BC3588000AB680B /* Supporting Files */,
+				171AB8B61BC35F1A00C161A7 /* Test.h */,
+				171AB8B71BC35F1A00C161A7 /* Test.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17BFE52C1BC3588000AB680B /* ViewController.m in Sources */,
+				171AB8B81BC35F1A00C161A7 /* Test.m in Sources */,
 				17BFE5291BC3588000AB680B /* AppDelegate.m in Sources */,
 				17BFE5261BC3588000AB680B /* main.m in Sources */,
 			);
@@ -418,6 +424,7 @@
 				17BFE5451BC3588000AB680B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17BFE5461BC3588000AB680B /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				17BFE5481BC3588000AB680B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
